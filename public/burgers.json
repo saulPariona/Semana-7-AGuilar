@@ -1,0 +1,18 @@
+[
+  { "id": 1, "nombre": "Clásica", "descripcion": "Carne de res, lechuga, tomate y salsa de la casa.", "precio": 12, "categoria": "Clásicas", "foto": "1568901346375-23c9450c58cd" },
+  { "id": 2, "nombre": "Doble Carne", "descripcion": "Doble carne, doble queso y cebolla caramelizada.", "precio": 18, "categoria": "Clásicas", "foto": "1550547660-d9450f859349" },
+  { "id": 3, "nombre": "Cheeseburger", "descripcion": "Carne a la parrilla con queso cheddar derretido.", "precio": 14, "categoria": "Clásicas", "foto": "1571091718767-18b5b1457add" },
+  { "id": 4, "nombre": "Bacon Burger", "descripcion": "Carne, tocino crocante, queso y salsa BBQ.", "precio": 17, "categoria": "Clásicas", "foto": "1594212699903-ec8a3eca50f5" },
+  { "id": 5, "nombre": "Americana", "descripcion": "Carne, pepinillos, mostaza, ketchup y queso americano.", "precio": 16, "categoria": "Clásicas", "foto": "1553979459-d2229ba7433b" },
+  { "id": 6, "nombre": "Crispy Chicken", "descripcion": "Pechuga de pollo crocante con mayonesa y lechuga.", "precio": 15, "categoria": "Pollo", "foto": "1606755962773-d324e0a13086" },
+  { "id": 7, "nombre": "Pollo BBQ", "descripcion": "Pollo apanado, salsa BBQ y aros de cebolla.", "precio": 16, "categoria": "Pollo", "foto": "1586190848861-99aa4a171e90" },
+  { "id": 8, "nombre": "Pollo Parrillero", "descripcion": "Pechuga a la parrilla, queso suizo y palta.", "precio": 15, "categoria": "Pollo", "foto": "1561758033-d89a9ad46330" },
+  { "id": 9, "nombre": "Buffalo Chicken", "descripcion": "Pollo crocante bañado en salsa buffalo y ranch.", "precio": 17, "categoria": "Pollo", "foto": "1551782450-a2132b4ba21d" },
+  { "id": 10, "nombre": "Royal", "descripcion": "Carne, huevo frito, jamón y queso.", "precio": 19, "categoria": "Especiales", "foto": "1572802419224-296b0aeee0d9" },
+  { "id": 11, "nombre": "Hawaiana", "descripcion": "Carne, piña grillada, jamón y queso.", "precio": 17, "categoria": "Especiales", "foto": "1520072959219-c595dc870360" },
+  { "id": 12, "nombre": "A lo Pobre", "descripcion": "Carne, huevo frito, plátano frito y salsa criolla.", "precio": 20, "categoria": "Especiales", "foto": "1603064752734-4c48eff53d05" },
+  { "id": 13, "nombre": "Huancaína", "descripcion": "Carne con cremosa salsa a la huancaína y huevo.", "precio": 18, "categoria": "Especiales", "foto": "1607013251379-e6eecfffe234" },
+  { "id": 14, "nombre": "Inferno", "descripcion": "Carne, ají picante, jalapeños y queso pepper jack.", "precio": 19, "categoria": "Especiales", "foto": "1565299507177-b0ac66763828" },
+  { "id": 15, "nombre": "Veggie", "descripcion": "Medallón de quinua y verduras con palta.", "precio": 15, "categoria": "Veggie", "foto": "1512152272829-e3139592d56f" },
+  { "id": 16, "nombre": "Portobello", "descripcion": "Hongo portobello a la parrilla con queso y rúcula.", "precio": 17, "categoria": "Veggie", "foto": "1585238342024-78d387f4a707" }
+]
