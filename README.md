@@ -63,4 +63,4 @@ Para ejecutar esta SPA localmente en tu computadora, sigue estos pasos:
 
 1. Clonar el repositorio:
    ```bash
-   git clone [https://github.com/saulPariona/Semana-7-AGuilar.git](https://github.com/saulPariona/Semana-7-AGuilar.git)
+   git clone https://github.com/saulPariona/Semana-7-AGuilar.git
