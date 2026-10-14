@@ -32,49 +32,28 @@ Este proyecto es una SPA interactiva de un catalogo de hamburguesas desarrollada
 
 ## Evidencia de Funcionamiento de la SPA (Entorno Local)
 
-*Nota: Asegurate de guardar tus capturas de pantalla dentro de una carpeta llamada `docs/` o `assets/` en la raiz de tu proyecto para que se visualicen correctamente en este README.*
-
 ### 1. Vista General de la SPA
 Demostracion de la aplicacion cargada en el servidor local (`http://localhost:5173/`) mostrando el encabezado, buscador, categorias y el catalogo de productos.
-
-![Vista General de la SPA](./docs/01-vista-general.png)
-*Figura 1: Interfaz principal de la SPA ejecutandose de manera local.*
 
 ---
 
 ### 2. Ciclo de Renderizado y Profiling (Paso 1)
 Uso de React DevTools Profiler para monitorear los commits y comprobar que los renderizados ocurren unicamente en los componentes necesarios al interactuar con la aplicacion.
 
-![React DevTools Profiler](./docs/02-profiler.png)
-*Figura 2: Analisis de rendimiento y re-renderizados con React DevTools.*
-
 ---
 
 ### 3. Carga Asincrona, Manejo de Errores y Reintento (Paso 2)
 Implementacion del Hook personalizado `useFetch` con manejo de estados `loading`, `error` y cancelacion de solicitudes con `AbortController`.
-
-| Estado de Carga | Manejo de Error / Reintento |
-| :---: | :---: |
-| ![Estado de Carga](./docs/03-loading.png) | ![Pantalla de Error](./docs/03-error.png) |
-| *Figura 3.1: Indicador de carga activa.* | *Figura 3.2: Boton de reintento ante un fallo de red.* |
 
 ---
 
 ### 4. Gestion de Tema Global Dia/Noche con Context API (Paso 3)
 Cambio de tema dinamico en toda la aplicacion consumiendo `useTheme()` sin incurrir en prop drilling. La preferencia del usuario se persiste en `localStorage`.
 
-| Modo Dia (Light) | Modo Noche (Dark) |
-| :---: | :---: |
-| ![Modo Dia](./docs/04-tema-dia.png) | ![Modo Noche](./docs/04-tema-noche.png) |
-| *Figura 4.1: SPA en Modo Dia.* | *Figura 4.2: SPA en Modo Noche.* |
-
 ---
 
 ### 5. Carrito de Compras Dinamico y Sistema de Notificaciones (Pasos 3, 4 y 5)
 Despliegue del panel lateral del carrito (Drawer), notificaciones flotantes (Toasts) activadas por `useToast()`, y uso de `useReducer` para la modificacion inmutable de productos.
-
-![Carrito y Notificaciones](./docs/05-carrito-toast.png)
-*Figura 5: Panel del carrito desplegado, modificacion de cantidades y alerta flotante activa.*
 
 ---
 
